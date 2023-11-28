@@ -1,0 +1,62 @@
+[
+    {
+        "cate": "Indonesia",
+        "img": "jakarta.webp"
+    },
+    {
+        "cate": "Indonesia",
+        "img": "bali.webp"
+    },
+    {
+        "cate": "Indonesia",
+        "img": "medan.webp"
+    },
+    {
+        "cate": "Indonesia",
+        "img": "ntt.webp"
+    },
+    {
+        "cate": "Indonesia",
+        "img": "papua.webp"
+    },
+    {
+        "cate": "Internasional",
+        "img": "korsel.webp"
+    },
+    {
+        "cate": "Internasional",
+        "img": "china.webp"
+    },
+    {
+        "cate": "Internasional",
+        "img": "singapore.webp"
+    },
+    {
+        "cate": "Internasional",
+        "img": "japan.webp"
+    },
+    {
+        "cate": "Internasional",
+        "img": "thailand.webp"
+    },
+    {
+        "cate": "Influencer",
+        "img": "influencer1.webp"
+    },
+    {
+        "cate": "Influencer",
+        "img": "influencer2.webp"
+    },
+    {
+        "cate": "Influencer",
+        "img": "influencer3.webp"
+    },
+    {
+        "cate": "Influencer",
+        "img": "influencer4.webp"
+    },
+    {
+        "cate": "Influencer",
+        "img": "influencer5.webp"
+    }
+]
