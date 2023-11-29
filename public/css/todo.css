@@ -124,11 +124,17 @@ body {
     color: var(--font-color-grey);
 }
 
+.container .row {
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
 .container .row .box {
     width: 191px;
     border: 1px solid red;
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;
+    border-radius: 7px;
+    table-layout: fixed;
 }
 
 .container .row img {

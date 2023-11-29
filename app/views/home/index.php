@@ -42,7 +42,7 @@
                         <p>Villa</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="<?= BASEURL ?>/todo">
                     <div class="box">
                         <img src="img/icon/todo.webp" alt="">
                         <p>ToDo</p>
@@ -106,7 +106,7 @@
         </div>
         <form action="" method="post">
             <div class="row" id="container2" id="container2">
-                <?php foreach($data['hotels'] as $data) : ?>
+                <?php foreach ($data['hotels'] as $data) : ?>
                     <a href="<?= BASEURL ?>/home/detail/<?= $data['id'] ?>">
                         <div class="card">
                             <img src="img/container2/<?= $data['img'] ?>" alt="">
@@ -121,7 +121,7 @@
                                             <i class="fa-solid fa-star"></i>
                                         </div>
                                         <div class="address">
-                                            <p><?= $data['address']?></p>
+                                            <p><?= $data['address'] ?></p>
                                         </div>
                                     </div>
                                     <div class="review">

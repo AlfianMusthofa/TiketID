@@ -59,8 +59,8 @@
         <h3 class="text-xl font-semibold">Saatnya Bertualang</h3>
         <p class="text-sm mt-1">Cek rekomendasi aktivitas keren diberbagai negara, kuy!</p>
     </div>
-    <div class="row mt-4">
-        <div class="box">
+    <div class="row flex gap-3 py-3" id="todo1">
+        <!-- <div class="box">
             <a href="#">
                 <img src="<?= BASEURL ?>/img/todo/card (1).png" alt="">
                 <div class="caption">
@@ -76,6 +76,6 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 </section>
