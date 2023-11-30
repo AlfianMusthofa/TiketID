@@ -1,6 +1,6 @@
 <section class="header">
     <div class="logo">
-        <a href="<?= BASEURL ?>/home">TiketID.com</a>
+        <a href="<?= BASEURL ?>/home">TiketID</a>
     </div>
     <div class="navlink">
         <a href="login.php">Masuk</a>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman <?= $data['judul'] ?></title>
+    <title><?= $data['judul'] ?></title>
     <script src="https://kit.fontawesome.com/707c864a21.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?= BASEURL ?>/css/<?= $data['css'] ?>">
 </head>
@@ -12,7 +12,7 @@
 <body>
     <section class="header">
         <div class="logo">
-            <a href="#">TiketID.com</a>
+            <a href="#">TiketID</a>
         </div>
         <div class="navlink">
             <a href="login.php">Masuk</a>
@@ -27,7 +27,7 @@
             </div>
             <div class="search-field">
                 <input type="search" placeholder="Mau liburan kemana?" id="searchInput">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
             </div>
             <div class="link-group">
                 <a href="#">

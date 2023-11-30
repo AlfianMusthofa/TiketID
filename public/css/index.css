@@ -94,9 +94,15 @@ body {
 
 .hero .content .search-field input {
     font-family: 'Poppins', sans-serif;
-    padding: 10px 10px 10px 35px;
+    /* padding: 10px 10px 10px 35px;
     width: 90%;
     border-radius: 8px;
+    border: none;
+    outline: none; */
+    padding: 13px 20px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 14px;
     border: none;
     outline: none;
 }

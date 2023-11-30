@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotels Page</title>
+    <title>TicketID | <?= $data['detail']['name'] ?></title>
     <link rel="stylesheet" href="<?= BASEURL ?>/css/<?= $data['css'] ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,7 +13,7 @@
 <body>
     <section class="header">
         <div class="logo">
-            <a href="<?= BASEURL ?>/home">TiketID.com</a>
+            <a href="<?= BASEURL ?>/home">TiketID</a>
         </div>
         <div class="navlink">
             <a href="login.php">Masuk</a>
@@ -32,7 +32,6 @@
     <div class="nav container mx-auto">
         <a href="#info">Info Umum</a>
         <a href="#">Lokasi</a>
-        <a href="#">Info Kamar</a>
     </div>
     <div class="info-umum container mx-auto" id="info">
         <div class="row">
@@ -61,7 +60,7 @@
             <div class="col">
                 <div class="price">
                     <p>Mulai dari</p>
-                    <h3><?=  $data['detail']['np'] ?></h3>
+                    <h3><?= $data['detail']['np'] ?></h3>
                 </div>
                 <a href="#">Pesan</a>
             </div>

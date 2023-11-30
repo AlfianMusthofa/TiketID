@@ -4,7 +4,7 @@ class Home extends Controller
 {
     function index()
     {
-        $data['judul'] = 'Home';
+        $data['judul'] = 'TiketID - Satu Website untuk Kebutuhan Liburanmu';
         $data['css'] = 'index.css';
         $data['hotels'] = $this->model('home_model')->getAllData();
         $this->view('home/index', $data);
