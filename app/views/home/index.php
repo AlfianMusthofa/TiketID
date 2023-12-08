@@ -20,7 +20,7 @@
         </div>
     </section>
     <section class="hero">
-        <img src="img/bg.jpg" alt="">
+        <img src="img/bg2.jpg" alt="">
         <div class="content">
             <div class="title">
                 <h3><span>Hey kamu,</span> mau kemana?</h3>
@@ -326,7 +326,7 @@
     <div class="footer">
         <div class="box">
             <i class="fa-regular fa-copyright"></i>
-            <p>2023 tiket.com X TiketID Ltd.</p>
+            <p>2023 tiket.com X TiketID Co.</p>
         </div>
         <div class="box">
             <i class="fa-solid fa-globe"></i>
